@@ -1,0 +1,153 @@
+
+
+body {
+    background: #ddd0d0;
+    font-family: arial;
+}
+
+header {
+    background: #9e9898;
+    padding-right: 10px;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    
+}
+
+nav a {
+    color:rgb(52, 62, 68);
+    text-transform: uppercase;
+    text-underline-offset: none;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: rgb(81, 78, 74);
+}
+
+nav a::before{
+    content: "";
+    display: black;
+    height: 5px;
+    background-color: rgb(236, 251, 246);
+
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+
+    transition: all ease-in-out 150ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    float: left;
+    border-right: #000000 solid 2px;
+    padding-right: 5px;
+}
+
+.sidebar a {
+    color:black;
+    text-underline-offset: none;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    color: rgb(81, 78, 74);
+
+}
+
+.sidebar ul ul li {
+    color: black;
+    text-underline-offset: none;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.content {
+    width: 85%;
+    margin-left: 220px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    font-size: 16px;
+}
+
+aside {
+    font-weight: bold;
+    width: 20%;
+    max-width: 150px;
+    min-width: 100px;
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    border-left: black solid 2px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+b1 {
+    font-weight: bold;
+    color: blue;
+}
