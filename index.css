@@ -1,19 +1,43 @@
 
 
 body {
-    background: #ddd0d0;
+    background: #ebe9e9;
     font-family: arial;
 }
 
 header {
-    background: #9e9898;
-    padding-right: 10px;
+    background: #48474C;
 }
 
 header::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.module {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 225px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 85%;
+    
+}
+
+.module1 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 95%;
+    
+}
+
+nav {
+    height: 30%;
+    width: 100%;
 }
 
 nav ul {
@@ -32,7 +56,7 @@ nav li {
 }
 
 nav a {
-    color:rgb(52, 62, 68);
+    color:rgb(255, 255, 255);
     text-transform: uppercase;
     text-underline-offset: none;
     text-decoration: none;
@@ -40,7 +64,7 @@ nav a {
 
 
 nav a:hover {
-    color: rgb(81, 78, 74);
+    color: rgb(227, 227, 227);
 }
 
 nav a::before{
@@ -67,8 +91,8 @@ nav a:hover::before {
     display: flex;
     position: fixed;
     float: left;
-    border-right: #000000 solid 2px;
-    padding-right: 5px;
+    padding-right: 10px;
+    background-color: #ebe9e9;
 }
 
 .sidebar a {
@@ -93,10 +117,6 @@ nav a:hover::before {
 
 }
 
-.content {
-    width: 85%;
-    margin-left: 220px;
-}
 
 h1 {
     font-size: 26px;
@@ -130,14 +150,10 @@ li {
 }
 
 aside {
-    font-weight: bold;
-    width: 20%;
-    max-width: 150px;
-    min-width: 100px;
-    float: right;
+    font-style: italic;
     padding: 10px;
     margin-left: 10px;
-    border-left: black solid 2px;
+    border-left: black solid 5px;
 }
 
 .center {
