@@ -153,7 +153,7 @@ aside {
     font-style: italic;
     padding: 10px;
     margin-left: 10px;
-    border-left: black solid 5px;
+    border-left: rgb(91, 130, 203) solid 5px;
 }
 
 .center {
@@ -163,7 +163,7 @@ aside {
     width: 50%;
   }
 
-b1 {
+b {
     font-weight: bold;
-    color: blue;
+    color: rgb(79, 112, 174);
 }

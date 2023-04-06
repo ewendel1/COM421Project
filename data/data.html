@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link href="../index.css" rel="stylesheet" type="text/css">
+    <link href="../index.css" rel="stylesheet" type="text/css">
+    <title>Data</title>
 </head>
+
 <body>
+
 <header>
     <div class="container">
         <nav>
@@ -51,8 +54,8 @@
         <p>You should already be familiar with:</p>
         <ul>
             <li>The basic functions and tools of Excel</li>
-            <li><b1>Descriptive statistics</b1> and <b1>inferential statistics</b1></li>
-            <li>Research design and how to identify <b1>independent variables</b1> and <b1>dependent variables</b1></li>
+            <li><b>Descriptive statistics</b> and <b>inferential statistics</b></li>
+            <li>Research design and how to identify <b>independent variables</b> and <b>dependent variables</b></li>
         </ul>
     </aside>
 
@@ -75,13 +78,13 @@
     <p>Make sure the computer you are working on has Microsoft Excel installed. Open the document ToolBox_DataLesson.xls [[[NOTE: NEED LINK TO DOWNLOAD TUTORIAL EXCEL FILE]]] in Excel and follow along with the lesson, taking action as instructed. In the Raw_Dataset spreadsheet, the name of each variable has been entered in the first row of each column.</p>
     <ol>
         <li>Each variable name must be different from other variable names.</li>
-        <li>The first variable (in column A) is a <b1>unique identifier</b1>.</li>
+        <li>The first variable (in column A) is a <b>unique identifier</b>.</li>
         <li>Variable names must start with a letter (not numbers or special characters), so change <i>4tutorial_types</i> to <i>tutorial_types</i>.</li>
         <li>Name variables so that they are intuitive to you. Therefore, change <i>use</i> and <i>useful</i> to <i>perc_ease_of_use</i> and <i>perc_usefulness</i>, respectively.</li>
         <li>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to Perceived Usefulness and Column G refers to Perceived Ease of Use.</li>
     </ol>
 
-    <img src="../graphics/illustrations/datalesson_fig3.png" alt="Screenshot of an Excel table with multiple dichotomous variables" class="center"/>
+    <img src="../graphics/illustrations/datalesson_fig3.png" alt="Screenshot of an Excel table with multiple dichotomous variables" class="center">
     <h5>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</h5>
 
 
@@ -93,31 +96,31 @@
         <li>Your Raw_Dataset spreadsheet should now look like Figure 2.</li>
     </ol>
 
-    <img src="../graphics/illustrations/datalesson_fig2.png" alt="Screenshot of Excel values in consistent format" class="center"/>
+    <img src="../graphics/illustrations/datalesson_fig2.png" alt="Screenshot of Excel values in consistent format" class="center">
     <h5>Values for each variable are entered in a consistent format.</h5>
 
 
     <p>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is 
-        represented for the given subject/item. This makes the categorical values <b1>dichotomous</b1>, which gives 
+        represented for the given subject/item. This makes the categorical values <b>dichotomous</b>, which gives 
         the researcher maximum flexibility in testing for relationships or correlations.</p>
 
     <aside>
-        <p><b>Dichotomous variables allow for the easy isolation of characteristics for analysis. 
+        <p><strong>Dichotomous variables allow for the easy isolation of characteristics for analysis. 
             For example, separating experience levels allows the researcher to test in PASW whether subjects with 
             low experience have perceived ease of use scores significantly different from those with medium and 
-            high experience levels.</b></p>
+            high experience levels.</strong>></p>
 
     </aside>
 
     <ol>
         <li>Copy the Raw_Dataset values into the Sheet2 tab. Rename this sheet Formatted_Data.</li>
-        <li>In the Formatted_Data sheet, add new columns with <b>Insert > Columns</b> for each distinct value in categorical data columns (<i>tutorial_types</i>, <i>gender</i>, <i>exp_level</i>, <i>task1</i>, <i>task2</i>, and <i>task3</i>). You do not have to add a new column for <i>task1</i>, <i>task2</i>, and <i>task3</i> because their values are already dichotomous.</li>
+        <li>In the Formatted_Data sheet, add new columns with <strong>Insert > Columns</strong> for each distinct value in categorical data columns (<i>tutorial_types</i>, <i>gender</i>, <i>exp_level</i>, <i>task1</i>, <i>task2</i>, and <i>task3</i>). You do not have to add a new column for <i>task1</i>, <i>task2</i>, and <i>task3</i> because their values are already dichotomous.</li>
         <li>Rename columns according to each possible categorical value. Copy and paste the values from the original column.</li>
-        <li>Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: <b>Edit > Replace</b>.</li>
+        <li>Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: <strong>Edit > Replace</strong>.</li>
         <li>Your Formatted_Data spreadsheet should now look like Figure 3.</li>
     </ol>
 
-    <img src="../graphics/illustrations/datalesson_fig3 (1).png" alt="Screenshot of Excel table with many columns" class="center"/>
+    <img src="../graphics/illustrations/datalesson_fig3 (1).png" alt="Screenshot of Excel table with many columns" class="center">
     <h5>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</h5>
 
 </div>
@@ -131,14 +134,14 @@
     </aside>
 
     <p>Run descriptive (summary) statistics on the dataset and output results in a new spreadsheet. If 
-        necessary, rearrange columns so that data requiring summary, those with <b1>continuous</b1> values, 
+        necessary, rearrange columns so that data requiring summary, those with <b>continuous</b> values, 
         are adjacent. (In the spreadsheet, the continuous values of <i>perc_enjoy</i>, <i>perc_usefulness</i>, and 
         <i>perc_ease_of_use</i> are already adjacent.)</p>
     <p>Write down the "input range" (i.e. H2:J26) of the data requiring summary, making sure not to include variable labels.</p>
     <ol>
-        <li>Go to <b>Tools > Add-Ins...</b> and make sure <b>Analysis ToolPak</b> is checked. Click OK.</li>
-        <li>Go to <b>Tools > Data Analysis</b> and select <b>Descriptive Statistics</b>. Click OK.</li>
-        <li>Enter the input range in the blank and check <b>Summary Statistics</b>. Click OK.</li>
+        <li>Go to <strong>Tools > Add-Ins...</strong> and make sure <strong>Analysis ToolPak</strong> is checked. Click OK.</li>
+        <li>Go to <strong>Tools > Data Analysis</strong> and select <strong>Descriptive Statistics</strong>. Click OK.</li>
+        <li>Enter the input range in the blank and check <strong>Summary Statistics</strong>. Click OK.</li>
     </ol>
 
     <p>The descriptive statistics summary will output in a new sheet. Rename this spreadsheet 
@@ -149,7 +152,7 @@
         for <i>perc_usefulness</i> and <i>perc_ease_of_use</i>?
     </p>
 
-    <img src="../graphics/illustrations/datalesson_fig4.png" alt="Screenshot showing that non-numeric caracters will not run statistics" class="center"/>
+    <img src="../graphics/illustrations/datalesson_fig4.png" alt="Screenshot showing that non-numeric caracters will not run statistics" class="center">
     <h5>Excel will not run descriptive statistics with non-numeric characters, so the variable labels must be re-entered.</h5>
 
 </div>
@@ -159,20 +162,20 @@
     <h2 id="1.3">Run inferential statistics</h2>
     <p>Open PASW and upload the spreadsheet. (IIT labs in Stuart Building, room 112, have PASW. You can also download a 30-day free trial.)</p>
     <ol>
-        <li>When PASW starts, it will prompt you for a data source. Select <b>Open an existing data source > More Files...</b></li>
+        <li>When PASW starts, it will prompt you for a data source. Select <strong>Open an existing data source > More Files...</strong></li>
         <li>Set the file type to Excel, then find and open the file.</li>
         <li>From the list, select the Formatted_Data worksheet. Click OK. You should now see the dataset.</li>
     </ol>
 
-    <p>The most commonly used statistical methods and tests are found under the <b>Analyze</b> menu in the standard toolbar.</p>
-    <p>Figure 5 shows where to find some common statistical methods and tests. Under PASW's <b>Analyze</b> menu, see if you can also find the following:</p>
+    <p>The most commonly used statistical methods and tests are found under the <strong>Analyze</strong> menu in the standard toolbar.</p>
+    <p>Figure 5 shows where to find some common statistical methods and tests. Under PASW's <strong>Analyze</strong> menu, see if you can also find the following:</p>
     <ol>
         <li>Wilcoxon-Mann-Whitney test</li>
         <li>Simple linear regression</li>
         <li>Non-parametric correlation</li>
     </ol>
 
-    <img src="../graphics/illustrations/datalesson_fig5.png" alt="Screenshot of running a PASW test" class="center"/>
+    <img src="../graphics/illustrations/datalesson_fig5.png" alt="Screenshot of running a PASW test" class="center">
     <h5>CAPTION: Don't assume PASW doesn't run a given test. Many are located under broader statistical classifications.</h5>
 
 
@@ -189,7 +192,7 @@
     </aside>
 
     <p>You should have determined that the Kruskal-Wallis one-way analysis of variance is the 
-        appropriate test. Go to <b>Analyze > Nonparametric Tests > K Independent Samples...</b> A new 
+        appropriate test. Go to <strong>Analyze > Nonparametric Tests > K Independent Samples...</strong> A new 
         window will open prompting you to select the variables (by column name) to be tested.
     </p>
 
@@ -200,23 +203,23 @@
         <li>Select the <i>free_play</i> variable from the scrollable list, and click the bottom arrow to move
             it to the Grouping Variable section (i.e. independent variable).
         </li>
-        <li>Click <b>Define Range...</b>, and enter "0" in the Minimum field and "1" in the Maximum field. 
+        <li>Click <strong>Define Range...</strong>, and enter "0" in the Minimum field and "1" in the Maximum field. 
             This specifies the two categorical variables to be tested. Your screen should now look like Figure 6. Click Continue.
         </li>
     </ol>
 
-    <img src="../graphics/illustrations/datalesson_fig6.png" alt="Screenshot detailing Kruskal-Wallis variables" class="center"/>
+    <img src="../graphics/illustrations/datalesson_fig6.png" alt="Screenshot detailing Kruskal-Wallis variables" class="center">
     <h5>For Kruskal-Wallis, an independent (free_play) and a dependent variable (perc_usefulness) are selected.</h5>
 
 
     <p>Click OK to display the statistical analysis results to new viewing window. Your results screen 
         should look like Figure 7. Because statistical analysis output contains many numerical 
         components (some of which must be cited in formal reports), it is a good idea to save it to a 
-        format independent of the PASW software. To save the results, go to <b>File > Export</b>. Change 
+        format independent of the PASW software. To save the results, go to <strong>File > Export</strong>. Change 
         Document Type to the desired output format (Word, Excel, PDF, etc.), then click OK.
     </p>
 
-    <img src="../graphics/illustrations/datalesson_fig7.png" alt="Screenshot of PASW exporting statistic to common document types" class="center"/>
+    <img src="../graphics/illustrations/datalesson_fig7.png" alt="Screenshot of PASW exporting statistic to common document types" class="center">
     <h5>PASW allows users to export statistics to common document types.</h5>
 
 </div>
